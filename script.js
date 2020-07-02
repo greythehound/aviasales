@@ -12,7 +12,9 @@ const citiesApi = 'http://api.travelpayouts.com/data/en/cities.json',
     API_KEY = '15ef00d0e26d558d43b725b86a985b51',
     calendar = 'http://min-prices.aviasales.ru/calendar_preload';
     // https://support.travelpayouts.com/hc/en-us/articles/203972143-Price-calendar-API
-    
+var test = '';
+var user = 'user';
+setTimeout(function(){ test = 'test'}, 5000);
 
 let city = [];
 
